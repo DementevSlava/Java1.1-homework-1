@@ -14,12 +14,12 @@
  
 ## Описание процесса тестирования
 ### Что тестировали
-1. Инструкция по установке OpenJDK11 работает под вашу ОС
-1. совместимость KeyValidator с Java 11
+1. Инструкция по установке OpenJDK11 соответствует фактической установки под вашу ОС
+1. Совместимость KeyValidator с Java 11
 1. Приложение работает так, как описано в [руководстве использования](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md).
 
 ### Арефакты
-* тест-план, описанный в легенде;
+* тест-план, описанный в [легенде](https://github.com/netology-code/javaqa-homeworks/tree/master/intro#%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0);
 * тест-сьют, состоящий из двух тест-кейсов:
     * проверка валидных ключей (позитивный сценарий);
     * проверка невалидных ключей (негативный сценарий);
@@ -53,3 +53,4 @@
 * <версия Java> openjdk version "11.0.6" 2020-01-14
 * OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)
 * OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
+* git version 2.25.1.windows.1
